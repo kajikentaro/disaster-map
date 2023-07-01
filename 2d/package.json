@@ -1,0 +1,19 @@
+{
+  "name": "deckgl-example-pure-js-google-maps",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "start-local": "vite --config ./vite.config.local.mjs",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.8.0",
+    "@deck.gl/google-maps": "^8.8.0",
+    "@deck.gl/layers": "^8.8.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}

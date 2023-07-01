@@ -1,0 +1,24 @@
+version: "3.2"
+
+services:
+  two_dimension:
+    ports:
+      - 3000:5173
+    build: ./2d
+    env_file:
+      - .env
+  three_dimension:
+    ports:
+      - 3001:5173
+    build: ./3d
+    env_file:
+      - .env
+  geojson_server:
+    ports:
+      - 2999:20768
+    build: ./geojson
+    volumes:
+      - type: bind
+        source: "./geojson"
+        target: "/app/file"
+
