@@ -46,7 +46,7 @@ loadScript(GOOGLE_MAPS_API_URL).then(() => {
     layers: [
       new GeoJsonLayer({
         id: "disaster",
-        data: "http://localhost:2999/serve/kanto_r1/A31-20-19_83-305-%E5%A4%9A%E6%91%A9%E5%B7%9D.geojson",
+        data: "/geojson/kanto_r1/A31-20-19_83-305-%E5%A4%9A%E6%91%A9%E5%B7%9D.geojson",
         // Styles
         filled: true,
         stroked: false,

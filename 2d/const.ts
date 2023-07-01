@@ -1,5 +1,5 @@
 export const kanagawa = {
-  baseUrl: 'http://localhost:2999/serve/kanagawa/',
+  baseUrl: '/geojson/kanagawa/',
   files: [
     'A31-20-21_1400020001.geojson',
     'A31-20-21_1400030001.geojson',
@@ -24,6 +24,6 @@ export const kanagawa = {
 };
 
 export const kanto_r1 = {
-  baseUrl: 'http://localhost:2999/serve/kanto_r1/',
+  baseUrl: '/geojson/kanto_r1/',
   files: ['A31-20-19_83-305-%E5%A4%9A%E6%91%A9%E5%B7%9D.geojson']
 };
